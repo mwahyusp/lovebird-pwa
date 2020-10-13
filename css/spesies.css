@@ -1,0 +1,27 @@
+table,
+td,
+th,
+.col s1 {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 50px;
+    text-align: center;
+    font-size: medium;
+}
+
+td {
+    text-align: center;
+}
+
+p,
+a,
+td {
+    font-size: 12px;
+}

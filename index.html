@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+<link rel="android-chrome-icon" sizes="192x192" href="/images/android-chrome-192x192.png">
+<link rel="android-chrome-icon" sizes="512x152" href="/images/android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Lovebird</title>
+  <meta name="description" content="Lovebird PWA" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#1B5E20" />
+</head>
+
+<body>
+
+  <!-- Navigasi -->
+  <nav class="green darken-4" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#beranda" class="brand-logo">Lovebird</a>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger">&#9776;</a>
+      <ul class="topnav right hide-on-med-and-down"></ul>
+      <ul id="nav-mobile" class="sidenav"></ul>
+    </div>
+  </nav>
+  <!-- Akhir Navigasi -->
+
+  <div class="body-content container"></div>
+
+  <script src="js/materialize.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/registerSW.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+{
+    "name": "Lovebird PWA",
+    "short_name": "Lovebird PWA",
+    "description": "Aplikasi PWA Burung Cinta",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#1B5E20",
+    "theme_color": "#1B5E20",
+    "orientation": "portrait-primary",
+    "dir": "ltr",
+    "lang": "en-US",
+    "icons": [
+        {
+            "src": "images/icon.png",
+            "type": "image/png",
+            "purpose": "any maskable",
+            "sizes": "512x512"
+        }
+    ]
+}
