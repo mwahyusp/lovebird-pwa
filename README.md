@@ -1,2 +1,2 @@
 # lovebird-pwa
-<h4>A web application of information about love birds.</h4>
+<h4>A web application of information about lovebirds.</h4>
