@@ -1,2 +1,3 @@
 # lovebirds-pwa
-<h4>A web application of information about lovebirds.</h4>
+
+<h4>An information web application about love birds using Indonesian.<h4>
